@@ -1,69 +1,56 @@
-# React + TypeScript + Vite
+✨ Tip Calculator
+This is a Tip Calculator application built with React, TypeScript, Vite, and Tailwind CSS. It's a simple, yet elegant tool for calculating tips and splitting bills among a group of people.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+🚀 Features
+Tip Calculation: Easily calculate the tip amount based on a percentage.
 
-Currently, two official plugins are available:
+Bill Splitting: Divide the total bill and tip among a specified number of people.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Responsive Design: The layout adjusts to fit various screen sizes, from mobile phones to desktop monitors.
 
-## Expanding the ESLint configuration
+Customizable: You can input a custom tip percentage, not just the pre-defined options.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+User-friendly Interface: A clean and intuitive design makes it easy to use for anyone.
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+🛠️ Technologies Used
+React: A JavaScript library for building user interfaces.
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+TypeScript: A typed superset of JavaScript that compiles to plain JavaScript.
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+Vite: A build tool that provides a fast and lean development experience.
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Tailwind CSS: A utility-first CSS framework for rapid UI development.
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+npm: The package manager for JavaScript.
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+⚙️ Installation and Setup
+Clone the repository:
+
+Bash
+
+git clone https://github.com/your-username/your-repo-name.git
+Navigate to the project directory:
+
+Bash
+
+cd your-repo-name
+Install the dependencies:
+
+Bash
+
+npm install
+Run the development server:
+
+Bash
+
+npm run dev
+The application will now be running on http://localhost:5173.
+
+📝 Usage
+Simply enter the bill amount, the desired tip percentage, and the number of people to split the bill with. The application will instantly display the tip amount per person and the total per person.
+
+📜 License
+This project is open source and available under the MIT License.
+
+📧 Contact
+If you have any questions or feedback, feel free to open an issue or contact me at your-email@example.com.
