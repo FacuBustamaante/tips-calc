@@ -4,7 +4,7 @@
 <h2>🚀 Features</h2>
 Tip Calculation: Easily calculate the tip amount based on a percentage.
 
-Bill Splitting: Divide the total bill and tip among a specified number of people.
+<strong>Bill Splitting:</strong> Divide the total bill and tip among a specified number of people.
 
 Responsive Design: The layout adjusts to fit various screen sizes, from mobile phones to desktop monitors.
 
