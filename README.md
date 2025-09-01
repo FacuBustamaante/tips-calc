@@ -2,15 +2,15 @@
 <p>This is a Tip Calculator application built with React, TypeScript, Vite, and Tailwind CSS. It's a simple, yet elegant tool for calculating tips and splitting bills among a group of people.</p>
 
 <h2>🚀 Features</h2>
-Tip Calculation: Easily calculate the tip amount based on a percentage.
+<strong>Tip Calculation:</strong> Easily calculate the tip amount based on a percentage.
 
 <strong>Bill Splitting:</strong> Divide the total bill and tip among a specified number of people.
 
-Responsive Design: The layout adjusts to fit various screen sizes, from mobile phones to desktop monitors.
+<strong>Responsive Design:</strong> The layout adjusts to fit various screen sizes, from mobile phones to desktop monitors.
 
-Customizable: You can input a custom tip percentage, not just the pre-defined options.
+<strong>Customizable:</strong> You can input a custom tip percentage, not just the pre-defined options.
 
-User-friendly Interface: A clean and intuitive design makes it easy to use for anyone.
+<strong>User-friendly Interface:</strong> A clean and intuitive design makes it easy to use for anyone.
 
 <h2>🛠️ Technologies Used</h2>
 React: A JavaScript library for building user interfaces.
